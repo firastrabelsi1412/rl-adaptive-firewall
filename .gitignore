@@ -1,0 +1,38 @@
+# Virtual environments
+rl_firewall_env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets & processed arrays (too large - download NSL-KDD separately)
+*.csv
+*.npy
+*.txt
+!requirements.txt
+data/
+
+# Trained models (share via GitHub Releases if needed)
+*.pt
+*.zip
+*.joblib
+*.pkl
+
+# Logs
+runs/
+*.log
+*.db
+
+# Secrets & local config
+.env
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
